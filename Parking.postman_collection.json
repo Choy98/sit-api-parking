@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "6590ff78-bf0d-4019-8469-c5dc0200209d",
+		"name": "Parking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26925597"
+	},
+	"item": [
+		{
+			"name": "feat: Listado de Autos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/parking/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parking",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "feat: Registrar autos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/parking/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parking",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
